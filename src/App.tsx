@@ -1,25 +1,40 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
 
-function App() {
+import { GlobalStyles, HeaderContainer } from "./App.styles";
+
+import Navigationbar from "./components/navbar/Navbar.component";
+import Slogan from "./components/slogan/Slogan.component";
+import PopularFurniture from "./components/popular-furniture/PopularFurniture.component";
+import SocialMedia from "./components/social-media/SocialMedia.component";
+import ConfiguratorIntro from "./components/configurator/ConfiguratorIntro.component";
+import ProjectsPreview from "./components/projects-preview/ProjectsPreview.component";
+import Newsletter from "./components/newsletter/Newsletter.component";
+import Footer from "./components/footer/Footer.component";
+
+import PopularItemsProvider from "./context/PopularItems.context";
+import ProjectsPreviewProvider from "./context/ProjectsPreview.context";
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <GlobalStyles />
+      <HeaderContainer>
+        <Navigationbar />
+        <section className="relative grid grid-rows-2 gap-4 place-items-center mt-40">
+          <Slogan />
+        </section>
+      </HeaderContainer>
+      <PopularItemsProvider>
+        <PopularFurniture />
+      </PopularItemsProvider>
+      <SocialMedia />
+      <ConfiguratorIntro />
+      <ProjectsPreviewProvider>
+        <ProjectsPreview />
+      </ProjectsPreviewProvider>
+      <Newsletter />
+      <Footer />
+    </>
   );
 }
 
