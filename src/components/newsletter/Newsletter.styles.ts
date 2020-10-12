@@ -11,7 +11,7 @@ export const SectionContainer = styled.section`
 `;
 
 export const ContentContainer = styled.div`
-    ${tw`p-2 bg-white bg-opacity-50 my-auto`}
+    ${tw`p-2 bg-white bg-opacity-50 lg:h-40 my-auto`}
 `;
 
 export const FormContainer = styled.div`
