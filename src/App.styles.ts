@@ -11,6 +11,7 @@ export const GlobalStyles = createGlobalStyle`
     }
 
     body {
+        ${tw`container`}
         font-family: "Questrial", sans-serif;
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;

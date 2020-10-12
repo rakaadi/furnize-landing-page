@@ -3,10 +3,10 @@ import tw from "twin.macro";
 
 export const SectionContainer = styled.section`
     background-image: url("https://images.unsplash.com/photo-1595428774795-8e16f034a3d6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80");
-    ${tw`bg-top flex flex-col place-items-center mt-6 p-4 h-64 w-screen relative`}
+    ${tw`bg-top flex flex-col place-items-center mt-6 p-4 h-full lg:h-64 w-screen relative`}
 
     p {
-        ${tw`font-semibold text-xl`}
+        ${tw`font-semibold text-base lg:text-xl`}
     }
 `;
 
@@ -15,7 +15,7 @@ export const ContentContainer = styled.div`
 `;
 
 export const FormContainer = styled.div`
-    ${tw`p-2 grid grid-cols-3 place-items-center gap-8 relative mt-2`}
+    ${tw`p-2 grid grid-rows-3 lg:grid-cols-3 place-items-center gap-2 lg:gap-8 relative mt-2`}
 
     div {
         ${tw`flex flex-col`}

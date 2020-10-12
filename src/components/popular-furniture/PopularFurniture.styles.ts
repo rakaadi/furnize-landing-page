@@ -2,15 +2,15 @@ import styled from "styled-components";
 import tw from "twin.macro"
 
 export const PopularItemsContainer = styled.section.attrs({
-    className: "font-questrial relative grid place-items-center p-1 mt-32 mx-auto w-11/12"
+    className: "font-questrial relative grid place-items-center p-1 mt-56 lg:mt-32 mx-auto w-11/12"
 })`& {
     h4 {
-        ${tw`text-gray-700 text-2xl mt-2 mb-1 mx-auto max-w-xs`}
+        ${tw`text-gray-700 text-2xl mt-4 lg:mt-2 mb-1 mx-auto max-w-xs`}
     }
 }`;
 
 export const CategoryContainer = styled.div`
-    ${tw`grid grid-cols-5 place-items-center p-2`}
+    ${tw`grid grid-cols-2 lg:grid-cols-5 place-items-center p-2`}
     cursor: pointer;
 `;
 
