@@ -21,7 +21,7 @@ export const StoryCard = styled.div`
     }
 
     h5  {
-        ${tw`font-semibold text-sm lg:text-base mx-auto mt-1 bg-gray-100`}
+        ${tw`font-semibold text-sm lg:text-base mx-auto mt-1`}
     }
 
     p {

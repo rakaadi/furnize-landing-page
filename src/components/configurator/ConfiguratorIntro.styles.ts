@@ -5,7 +5,7 @@ import tw from "twin.macro";
 
 export const ConfiguratorContainer = styled.section`
     background-image: url("https://images.unsplash.com/photo-1550581190-9c1c48d21d6c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1396&q=80");
-    ${tw`w-screen grid grid-rows-2 lg:grid-cols-2 place-items-center bg-center`}
+    ${tw`w-screen grid grid-rows-2 lg:(grid-rows-none grid-cols-2) place-items-center bg-center`}
 `;
 
 export const ContentContainer = styled.div.attrs({
