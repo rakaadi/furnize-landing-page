@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/furnize-landing-page/static/css/main.cf0041b2.chunk.css",
+    "main.js": "/furnize-landing-page/static/js/main.aba417b4.chunk.js",
+    "main.js.map": "/furnize-landing-page/static/js/main.aba417b4.chunk.js.map",
+    "runtime-main.js": "/furnize-landing-page/static/js/runtime-main.0fd3aa63.js",
+    "runtime-main.js.map": "/furnize-landing-page/static/js/runtime-main.0fd3aa63.js.map",
+    "static/js/2.7a67c7cf.chunk.js": "/furnize-landing-page/static/js/2.7a67c7cf.chunk.js",
+    "static/js/2.7a67c7cf.chunk.js.map": "/furnize-landing-page/static/js/2.7a67c7cf.chunk.js.map",
+    "index.html": "/furnize-landing-page/index.html",
+    "precache-manifest.50ed73012b4421dcb83570c8b1e5c5ca.js": "/furnize-landing-page/precache-manifest.50ed73012b4421dcb83570c8b1e5c5ca.js",
+    "service-worker.js": "/furnize-landing-page/service-worker.js",
+    "static/css/main.cf0041b2.chunk.css.map": "/furnize-landing-page/static/css/main.cf0041b2.chunk.css.map",
+    "static/js/2.7a67c7cf.chunk.js.LICENSE.txt": "/furnize-landing-page/static/js/2.7a67c7cf.chunk.js.LICENSE.txt",
+    "static/media/furnize-logo.4827e1e5.svg": "/furnize-landing-page/static/media/furnize-logo.4827e1e5.svg",
+    "static/media/jacalyn-beales-edit.jpg": "/furnize-landing-page/static/media/jacalyn-beales-edit.635a1f29.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0fd3aa63.js",
+    "static/js/2.7a67c7cf.chunk.js",
+    "static/css/main.cf0041b2.chunk.css",
+    "static/js/main.aba417b4.chunk.js"
+  ]
+}
