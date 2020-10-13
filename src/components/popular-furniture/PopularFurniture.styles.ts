@@ -10,8 +10,12 @@ export const PopularItemsContainer = styled.section.attrs({
 }`;
 
 export const CategoryContainer = styled.div`
-    ${tw`grid grid-cols-2 lg:grid-cols-5 place-items-center p-2`}
+    ${tw`grid grid-cols-2 lg:grid-cols-5 place-items-center mx-auto p-2`}
     cursor: pointer;
+
+    & :last-child {
+        ${tw`col-span-2 lg:col-span-1`}
+    }
 `;
 
 export const ItemContainer = styled.div`
