@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/furnize-landing-page/precache-manifest.d35b082c7f31873dab8aeaf0b4b2a08a.js"
+  "/furnize-landing-page/precache-manifest.c84c415137842912f07faeb5521ec3c7.js"
 );
 
 self.addEventListener('message', (event) => {

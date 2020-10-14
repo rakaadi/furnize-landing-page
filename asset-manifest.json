@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/furnize-landing-page/static/css/main.cf0041b2.chunk.css",
-    "main.js": "/furnize-landing-page/static/js/main.d016c816.chunk.js",
-    "main.js.map": "/furnize-landing-page/static/js/main.d016c816.chunk.js.map",
+    "main.js": "/furnize-landing-page/static/js/main.79f20396.chunk.js",
+    "main.js.map": "/furnize-landing-page/static/js/main.79f20396.chunk.js.map",
     "runtime-main.js": "/furnize-landing-page/static/js/runtime-main.0fd3aa63.js",
     "runtime-main.js.map": "/furnize-landing-page/static/js/runtime-main.0fd3aa63.js.map",
     "static/js/2.7a67c7cf.chunk.js": "/furnize-landing-page/static/js/2.7a67c7cf.chunk.js",
     "static/js/2.7a67c7cf.chunk.js.map": "/furnize-landing-page/static/js/2.7a67c7cf.chunk.js.map",
     "index.html": "/furnize-landing-page/index.html",
-    "precache-manifest.d35b082c7f31873dab8aeaf0b4b2a08a.js": "/furnize-landing-page/precache-manifest.d35b082c7f31873dab8aeaf0b4b2a08a.js",
+    "precache-manifest.c84c415137842912f07faeb5521ec3c7.js": "/furnize-landing-page/precache-manifest.c84c415137842912f07faeb5521ec3c7.js",
     "service-worker.js": "/furnize-landing-page/service-worker.js",
     "static/css/main.cf0041b2.chunk.css.map": "/furnize-landing-page/static/css/main.cf0041b2.chunk.css.map",
     "static/js/2.7a67c7cf.chunk.js.LICENSE.txt": "/furnize-landing-page/static/js/2.7a67c7cf.chunk.js.LICENSE.txt",
@@ -19,6 +19,6 @@
     "static/js/runtime-main.0fd3aa63.js",
     "static/js/2.7a67c7cf.chunk.js",
     "static/css/main.cf0041b2.chunk.css",
-    "static/js/main.d016c816.chunk.js"
+    "static/js/main.79f20396.chunk.js"
   ]
 }

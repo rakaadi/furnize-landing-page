@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "acde057a99d4824f76876d3d920f2898",
+    "revision": "7c52857db7e63cec36f59c97c7690340",
     "url": "/furnize-landing-page/index.html"
   },
   {
-    "revision": "6520196f4aca6a25fb3c",
+    "revision": "eca304c9421630c3f938",
     "url": "/furnize-landing-page/static/css/main.cf0041b2.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/furnize-landing-page/static/js/2.7a67c7cf.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6520196f4aca6a25fb3c",
-    "url": "/furnize-landing-page/static/js/main.d016c816.chunk.js"
+    "revision": "eca304c9421630c3f938",
+    "url": "/furnize-landing-page/static/js/main.79f20396.chunk.js"
   },
   {
     "revision": "23671865436925fb48d5",
