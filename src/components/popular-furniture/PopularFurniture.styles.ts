@@ -2,7 +2,7 @@ import styled from "styled-components";
 import tw from "twin.macro"
 
 export const PopularItemsContainer = styled.section.attrs({
-    className: "font-questrial relative grid place-items-center p-1 mt-56 lg:mt-32 mx-auto w-11/12"
+    className: "font-questrial relative grid place-items-center p-1 mt-32 lg:mt-12 mx-auto w-11/12"
 })`& {
     h4 {
         ${tw`text-gray-700 text-2xl mt-4 lg:mt-2 mb-1 mx-auto max-w-xs`}

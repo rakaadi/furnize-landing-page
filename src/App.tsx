@@ -20,7 +20,7 @@ const App = () => {
       <GlobalStyles />
       <HeaderContainer>
         <Navigationbar />
-        <section className="relative grid grid-rows-2 gap-4 place-items-center mt-40">
+        <section className="relative grid place-items-center mt-40">
           <Slogan />
         </section>
       </HeaderContainer>

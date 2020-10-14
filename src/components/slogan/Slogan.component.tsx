@@ -1,6 +1,6 @@
 import React from "react";
 
-import { SloganContainer } from "./Slogan.styles";
+import { SloganContainer, LearnMoreBtn } from "./Slogan.styles";
 
 const Slogan = () => {
     return (
@@ -9,6 +9,7 @@ const Slogan = () => {
             <div className="slogan-word">
                 <h2>Customize <span>Your <span className="text-secondary">Own</span> Furniture</span> With Us</h2>
             </div>
+            <LearnMoreBtn><a href="#popular-furniture">Learn More</a></LearnMoreBtn>
         </SloganContainer>
     )
 }

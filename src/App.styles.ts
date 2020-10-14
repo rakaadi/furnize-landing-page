@@ -11,7 +11,7 @@ export const GlobalStyles = createGlobalStyle`
     }
 
     body {
-        ${tw`container`}
+        ${tw`w-screen overflow-x-hidden`}
         font-family: "Questrial", sans-serif;
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
@@ -19,11 +19,11 @@ export const GlobalStyles = createGlobalStyle`
 `;
 
 export const HeaderContainer = styled.header`
-    ${tw`relative`}
+    ${tw`relative h-screen w-screen`}
 
     ::before {
         content: "";
         background-image: url(${backgroundImage});
-        ${tw`absolute h-screen w-screen top-0 left-0 bg-bottom opacity-75 overflow-hidden`}
+        ${tw`absolute h-screen w-screen top-0 left-0 bg-bottom opacity-75`}
     }
 `;

@@ -14,7 +14,7 @@ const PopularFurniture = () => {
     const popularItems = useContext(PopularItemsContext);
 
     return (
-        <PopularItemsContainer>
+        <PopularItemsContainer id="popular-furniture">
             <h4>Popular Furniture Category</h4>
             <CategoryContainer
                 onMouseEnter={() => setIsHover(true)}
