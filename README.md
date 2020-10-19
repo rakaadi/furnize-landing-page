@@ -1,4 +1,8 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# About This Repository
+
+This repository contains the code for a fake business I called "Furnize". I create this repo is as a form of practice for both coding and UI design. So, as I working on both of those things I will continue to update the page into a better version the best as I can.
+
+I'm going tag a release version, and every release version will indicating a major overhaul at least from the UI design perspective.
 
 ## How to clone & run locally
 
