@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/furnize-landing-page/static/css/main.1d4d866c.chunk.css",
-    "main.js": "/furnize-landing-page/static/js/main.bfc279eb.chunk.js",
-    "main.js.map": "/furnize-landing-page/static/js/main.bfc279eb.chunk.js.map",
+    "main.js": "/furnize-landing-page/static/js/main.b53fc1b0.chunk.js",
+    "main.js.map": "/furnize-landing-page/static/js/main.b53fc1b0.chunk.js.map",
     "runtime-main.js": "/furnize-landing-page/static/js/runtime-main.5f65ffe4.js",
     "runtime-main.js.map": "/furnize-landing-page/static/js/runtime-main.5f65ffe4.js.map",
     "static/js/2.b08f4437.chunk.js": "/furnize-landing-page/static/js/2.b08f4437.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.5f65ffe4.js",
     "static/js/2.b08f4437.chunk.js",
     "static/css/main.1d4d866c.chunk.css",
-    "static/js/main.bfc279eb.chunk.js"
+    "static/js/main.b53fc1b0.chunk.js"
   ]
 }
