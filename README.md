@@ -1,4 +1,4 @@
-![Github Pages Deployment]<https://github.com/rakaadi/furnize-landing-page/workflows/Github%20Pages%20Deployment/badge.svg>
+[Github Pages Deployment]<https://github.com/rakaadi/furnize-landing-page/workflows/Github%20Pages%20Deployment/badge.svg>
 
 # About This Repository
 
