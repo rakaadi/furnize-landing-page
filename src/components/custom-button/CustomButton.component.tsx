@@ -5,7 +5,7 @@ import { CustomButtonContainer } from "./CustomButton.styles";
 
 const CustomButton = ({ children }: Props) => {
     return (
-        <CustomButtonContainer className="bg-primary hover:text-secondary font-questrial">
+        <CustomButtonContainer className="hover:text-yellowLogo bg-blueLogo font-questrial">
             {children}
         </CustomButtonContainer>
     )

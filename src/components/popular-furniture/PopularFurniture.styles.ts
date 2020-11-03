@@ -19,7 +19,7 @@ export const CategoryContainer = styled.div`
 `;
 
 export const ItemContainer = styled.div`
-    ${tw`overflow-hidden flex flex-col place-items-center shadow-lg`}
+    ${tw`relative overflow-hidden flex flex-col place-items-center shadow-lg`}
     img {
         size: cover;
         filter: grayscale(100%);

@@ -1,7 +1,4 @@
-import styled, { createGlobalStyle } from "styled-components";
-import tw from "twin.macro";
-
-import backgroundImage from "./assets/img/jacalyn-beales-edit.jpg";
+import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyles = createGlobalStyle`
     * {
@@ -11,19 +8,8 @@ export const GlobalStyles = createGlobalStyle`
     }
 
     body {
-        ${tw`w-screen overflow-x-hidden`}
         font-family: "Questrial", sans-serif;
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
-    }
-`;
-
-export const HeaderContainer = styled.header`
-    ${tw`relative h-screen w-screen`}
-
-    ::before {
-        content: "";
-        background-image: url(${backgroundImage});
-        ${tw`absolute h-screen w-screen top-0 left-0 bg-bottom opacity-75`}
     }
 `;
