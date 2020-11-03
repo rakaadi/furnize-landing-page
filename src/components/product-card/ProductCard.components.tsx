@@ -11,42 +11,42 @@ import {
 
 import CustomButton from "../custom-button/CustomButton.component";
 
-import { PopularItemsContext } from "../../context/PopularItems.context";
+import { FeaturedWorksContext } from "../../context/FeaturedWorks.context";
 
 const FeaturedProducts = () => {
-    const popularItems = useContext(PopularItemsContext);
+    const featuredWorks = useContext(FeaturedWorksContext);
 
     return (
         <ProductsContainer>
             <h4>Featured Works</h4>
             <CardsContainer>
                 {
-                    popularItems.map(popularItem => (
-                        <ProductCard key={popularItem.id}>
+                    featuredWorks.map(featuredWork => (
+                        <ProductCard key={featuredWork.id}>
                             <FrontFace>
-                                <img src={popularItem.link} alt={`featured work, ${popularItem.name}`} />
+                                <img src={featuredWork.link} alt={`featured work, ${featuredWork.name}`} />
                                 <div>
                                     <div>
                                         <p>Category</p>
-                                        <ProductBadge>{popularItem.name}</ProductBadge>
+                                        <ProductBadge>{featuredWork.name}</ProductBadge>
                                     </div>
                                     <div>
                                         <p>Total Cost</p>
-                                        <span>${popularItem.price}</span>
+                                        <span>${featuredWork.price}</span>
                                     </div>
                                 </div>
                             </FrontFace>
                             <BackFace>
                                 <div>
-                                    <p>{popularItem.content}</p>
+                                    <p>{featuredWork.content}</p>
                                     <div>
-                                        <p>Total Cost <span>${popularItem.price}</span></p>
+                                        <p>Total Cost <span>${featuredWork.price}</span></p>
                                     </div>
                                     <CustomButton>
                                         <i className="fas fa-dolly-flatbed"></i> Shop Now
                                     </CustomButton>
                                 </div>
-                                <img src={popularItem.link} alt={`featured work, ${popularItem.name}`} />
+                                <img src={featuredWork.link} alt={`featured work, ${featuredWork.name}`} />
                             </BackFace>
                         </ProductCard>
                     ))

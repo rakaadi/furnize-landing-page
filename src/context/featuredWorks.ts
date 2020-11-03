@@ -6,7 +6,7 @@ export interface IitemObject {
     id: number
 }
 
-export const popularItems: IitemObject[] = [
+export const featuredWorks: IitemObject[] = [
     {
         name: "chair",
         content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur repellendus eos fuga?",
